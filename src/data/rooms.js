@@ -25,7 +25,7 @@ const classic = (n, overrides = {}) => ({
   path: `chambres/chambre-${n}`,
   group: "classic",
   name: { fr: `Chambre ${n}`, en: `Room ${n}` },
-  tagline: { fr: "Chambre classique", en: "Classic room" },
+  tagline: { fr: "Chambre premium", en: "premium room" },
   description: {
     fr: "Une chambre lumineuse et confortable pensée pour se reposer après une journée à Abidjan. Description à remplacer par le vrai texte de cette chambre.",
     en: "A bright and comfortable room designed to rest after a day in Abidjan. Description to be replaced with the real text for this room.",
@@ -112,7 +112,7 @@ export const getRelated = (room) =>
 export const roomTypes = [
   {
     slug: "chambres",
-    name: { fr: "Chambre classique", en: "Classic room" },
+    name: { fr: "Chambre premium", en: "Premium room" },
     price: classicRooms[0].price,
     capacity: classicRooms[0].capacity,
     images: ["/images/pages/chambres/1.jpg"],

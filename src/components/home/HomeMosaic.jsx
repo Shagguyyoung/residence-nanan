@@ -9,7 +9,7 @@ const tiles = [
   { id: "logo", logo: true,
     mobile: "col-span-2", desktop: "lg:col-[5/9] lg:row-[3/6]" },
 
-  { id: "chambres", label: { fr: "6 chambres premiums", en: "6 classic rooms" }, path: "chambres",
+  { id: "chambres", label: { fr: "6 chambres premiums", en: "6 premius rooms" }, path: "chambres",
     image: "/images/pages/chambres/1.jpg", bg: "bg-nanan-green/25",
     mobile: "", desktop: "lg:col-[1/5] lg:row-[1/5]" },
 
@@ -37,7 +37,7 @@ const tiles = [
     image: "/images/pages/restaurant/1.jpg", bg: "bg-nanan-orange/30",
     mobile: "col-span-2", desktop: "lg:col-[1/5] lg:row-[7/9]" },
 
-  { id: "bar-lounge", label: { fr: "Bar-lounge", en: "Poolside lounge bar" }, path: "bar-lounge",
+  { id: "bar-lounge", label: { fr: "Bar-lounge", en: "Lounge bar" }, path: "bar-lounge",
     image: "/images/pages/bar-lounge/1.jpg", bg: "bg-nanan-green/25",
     mobile: "col-span-2", desktop: "lg:col-[5/9] lg:row-[6/9]" },
 ];
