@@ -9,7 +9,7 @@ const tiles = [
   { id: "logo", logo: true,
     mobile: "col-span-2", desktop: "lg:col-[5/9] lg:row-[3/6]" },
 
-  { id: "chambres", label: { fr: "6 chambres premiums", en: "6 premius rooms" }, path: "chambres",
+  { id: "chambres", label: { fr: "6 chambres premiums", en: "6 premium rooms" }, path: "chambres",
     image: "/images/pages/chambres/1.jpg", bg: "bg-nanan-green/25",
     mobile: "", desktop: "lg:col-[1/5] lg:row-[1/5]" },
 
