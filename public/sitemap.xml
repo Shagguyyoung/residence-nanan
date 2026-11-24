@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Remplace "https://www.residencenanan.com" par ton vrai domaine (Ctrl+H, remplacer tout) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.residencenanan.com/fr</loc></url>
+  <url><loc>https://www.residencenanan.com/en</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/hotel</loc></url>
+  <url><loc>https://www.residencenanan.com/en/hotel</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres/chambre-1</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres/chambre-1</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres/chambre-2</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres/chambre-2</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres/chambre-3</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres/chambre-3</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres/chambre-4</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres/chambre-4</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres/chambre-5</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres/chambre-5</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/chambres/chambre-6</loc></url>
+  <url><loc>https://www.residencenanan.com/en/chambres/chambre-6</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/suite-junior</loc></url>
+  <url><loc>https://www.residencenanan.com/en/suite-junior</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/suite-royale</loc></url>
+  <url><loc>https://www.residencenanan.com/en/suite-royale</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/reunions</loc></url>
+  <url><loc>https://www.residencenanan.com/en/reunions</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/piscine</loc></url>
+  <url><loc>https://www.residencenanan.com/en/piscine</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/restaurant</loc></url>
+  <url><loc>https://www.residencenanan.com/en/restaurant</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/bar-lounge</loc></url>
+  <url><loc>https://www.residencenanan.com/en/bar-lounge</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/contact</loc></url>
+  <url><loc>https://www.residencenanan.com/en/contact</loc></url>
+  <url><loc>https://www.residencenanan.com/fr/reservation</loc></url>
+  <url><loc>https://www.residencenanan.com/en/reservation</loc></url>
+</urlset>

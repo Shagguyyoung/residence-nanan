@@ -1,0 +1,16 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Palette Résidence Nanan (tirée du logo) : donne bg-nanan-orange, text-nanan-green-dark, etc. */
+@theme {
+  --color-nanan-orange: #e57f1f;
+  --color-nanan-orange-dark: #c96a10;
+  --color-nanan-green: #2b8a57;
+  --color-nanan-green-dark: #1f6b43;
+  --color-nanan-cream: #fbf8f3;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
