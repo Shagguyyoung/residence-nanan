@@ -29,6 +29,7 @@ export default function RoomCard({ room }) {
         <p className="mt-1 text-sm text-gray-500">
           {room.capacity} {t("guests")} · {room.size} m²
         </p>
+        <p className="mt-1 text-sm font-semibold text-nanan-green">{t("breakfastIncluded")}</p>
         <p className="mt-4 flex-1 leading-relaxed text-gray-700">{tr(room.tagline, lang)}</p>
 
         <Link

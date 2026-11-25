@@ -71,10 +71,14 @@ export default function Room({ slug: slugProp }) {
               {formatPrice(room.price, lang)}
               <span className="text-base font-normal text-gray-500"> {t("perNight")}</span>
             </p>
+            <p className="mt-2 text-sm font-semibold text-nanan-green">{t("breakfastIncluded")}</p>
 
             <dl className="mt-6 space-y-3 border-t border-nanan-green/20 pt-6 text-sm">
               <div className="flex justify-between"><dt className="text-gray-500">{t("capacity")}</dt><dd>{room.capacity} {t("guests")}</dd></div>
               <div className="flex justify-between"><dt className="text-gray-500">{t("size")}</dt><dd>{room.size} m²</dd></div>
+              {room.outdoorSize && (
+                <div className="flex justify-between"><dt className="text-gray-500">{t("outdoorSize")}</dt><dd>{room.outdoorSize} m²</dd></div>
+              )}
               <div className="flex justify-between"><dt className="text-gray-500">{t("bed")}</dt><dd className="text-right">{tr(room.bed, lang)}</dd></div>
             </dl>
 

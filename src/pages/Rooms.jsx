@@ -1,5 +1,5 @@
 // src/pages/Rooms.jsx
-// Liste des 6 chambres classiques : /fr/chambres  (chaque carte mène au détail)
+// Liste des 6 chambres premium : /fr/chambres  (chaque carte mène au détail)
 import { Link } from "react-router-dom";
 import { classicRooms } from "../data/rooms";
 import { useLang, useT } from "../i18n";
@@ -13,7 +13,7 @@ const text = {
     intro: "Choisissez votre chambre et découvrez ses photos, ses équipements et son tarif.",
   },
   en: {
-    title: "Premiums rooms",
+    title: "Premium rooms",
     tagline: "6 comfortable rooms for your stay",
     intro: "Choose your room and discover its photos, amenities and rate.",
   },

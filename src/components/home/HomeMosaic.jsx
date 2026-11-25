@@ -17,8 +17,8 @@ const tiles = [
     image: "/images/pages/suite-junior/1.jpg", bg: "bg-nanan-orange/30",
     mobile: "", desktop: "lg:col-[5/9] lg:row-[1/3]" },
 
-  { id: "suite-royale", label: { fr: "Suite Royale", en: "Royal Suite" }, path: "suite-royale",
-    image: "/images/pages/suite-royale/1.jpg", bg: "bg-nanan-green/30",
+  { id: "suite-senior", label: { fr: "Suite Senior", en: "Senior Suite" }, path: "suite-senior",
+    image: "/images/pages/suite-senior/1.jpg", bg: "bg-nanan-green/30",
     mobile: "", desktop: "lg:col-[9/13] lg:row-[1/5]" },
 
   { id: "reunions", label: { fr: "2 salles de réunion", en: "2 meeting rooms" }, path: "reunions",
@@ -37,7 +37,7 @@ const tiles = [
     image: "/images/pages/restaurant/1.jpg", bg: "bg-nanan-orange/30",
     mobile: "col-span-2", desktop: "lg:col-[1/5] lg:row-[7/9]" },
 
-  { id: "bar-lounge", label: { fr: "Bar-lounge", en: "Lounge bar" }, path: "bar-lounge",
+  { id: "bar-lounge", label: { fr: "NananBar", en: "NananBar" }, path: "bar-lounge",
     image: "/images/pages/bar-lounge/1.jpg", bg: "bg-nanan-green/25",
     mobile: "col-span-2", desktop: "lg:col-[5/9] lg:row-[6/9]" },
 ];

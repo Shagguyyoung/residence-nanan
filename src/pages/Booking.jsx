@@ -287,6 +287,7 @@ export default function Booking() {
               <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-nanan-green-dark">{c.summary}</h2>
               <p className="mt-3 text-xl font-bold text-nanan-green-dark">{typeName}</p>
               <p className="text-sm text-gray-500">{formatPrice(type.price, lang)} {c.perNight}</p>
+              <p className="text-sm font-semibold text-nanan-green">{t("breakfastIncluded")}</p>
 
               <dl className="mt-5 space-y-2 border-t border-nanan-green/20 pt-5 text-sm">
                 <div className="flex justify-between"><dt className="text-gray-500">{c.checkIn}</dt><dd>{form.checkIn || "-"}</dd></div>

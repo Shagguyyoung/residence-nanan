@@ -10,6 +10,7 @@ import InfoPage from "./pages/InfoPage";
 import Contact from "./pages/Contact";
 import Rooms from "./pages/Rooms";
 import Booking from "./pages/Booking";
+import MeetingRoom from "./pages/MeetingRoom";
 import { getRoom } from "./data/rooms";
 
 function Layout() {
@@ -40,7 +41,7 @@ function Layout() {
   );
 }
 
-// /fr/chambres, /fr/suite-junior, /fr/suite-royale -> page chambre ; le reste -> page d'information
+// /fr/chambres, /fr/suite-junior, /fr/suite-senior -> page chambre ; le reste -> page d'information
 function PageSwitch() {
   const { page } = useParams();
   const room = getRoom(page);
@@ -58,6 +59,7 @@ export default function App() {
         <Route path="reservation" element={<Booking />} />
         <Route path="chambres" element={<Rooms />} />
         <Route path="chambres/:slug" element={<Room />} />
+        <Route path="reunions/:slug" element={<MeetingRoom />} />
         {/* chambres, suites, restaurant, bar-lounge, piscine, reunions */}
         <Route path=":page" element={<PageSwitch />} />
       </Route>
